@@ -1,3 +1,7 @@
+// the probem is in line 181 to 216 where if two piece of invoice is saved then upon searching for the second invoice, segmentation error occurs 
+//i am speculating that it may be the way that the name and data is being read on the file or the problem with dynamic memory allocation 
+
+
 
 #include <stdio.h>
 #include <stdlib.h>
