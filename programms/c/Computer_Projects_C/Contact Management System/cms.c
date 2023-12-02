@@ -1,7 +1,6 @@
 #include <stdio.h> 
 #include <stdlib.h>
 #include <unistd.h>////to manipulate the terminal output delay
-
 //Check the working OS 
 #ifdef WIN_32
 #define CLEAR_SCREENSCREEN "cls"
