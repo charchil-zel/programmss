@@ -4,7 +4,7 @@
 
 //Check the working OS 
 #ifdef WIN_32
-#defineCLEAR_SCREENSCREEN "cls"
+#define CLEAR_SCREENSCREEN "cls"
 #else
 #define CLEAR_SCREEN "clear"
 #endif
