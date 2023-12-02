@@ -8,7 +8,7 @@
 #define CLEAR_SCREEN "clear"
 #endif
 void Credits(void);//display the credits at the startup
-
+//this is the file 
 //declare the structure to save the data
 struct Contact {
   char fName[50], lName[50], address[50], email[50];
