@@ -1,7 +1,6 @@
 function factors()
 {
     let no=prompt("No. to display Factor: ");
-    //no=parseInt(no);
     for (var i=1;i<=no;i++)
     {
         if (no%i==0)
@@ -15,7 +14,7 @@ factors();
 
 function factorial()
 {
-    let no=prompt("Factorial: ");
+    let no=prompt("Number: ");
   
     var a=1;
     for (var i=1;i<=no;i++)
@@ -25,7 +24,7 @@ function factorial()
    document.write(a);
 }
 factorial();
-
+    
 function fibonacci()
 {
     let no=prompt("No. of terms for Fibonacci Series: ");
@@ -45,7 +44,7 @@ function palindrome()
 {
     let no=prompt("Number to check the palindrome: ");
     no=parseInt(no);
-   var rev=0,rema,no1;
+   var rev=0,rem,no1;
     no1=no;
     while (no!=0)
     {
@@ -61,24 +60,24 @@ palindrome();
 
 function armstrong()
 {
-    let no,no1, rem,res=0,digit_count=0;
+    let no,no1, rem,res=0,digit=0;
     no=prompt("Number to check Armstrong: ");
     no=parseInt(no);
     no1=no;
     while (no!=0)
     {
         no=parseInt(no/10);
-        digit_count++;
+        digit++;
     }
 
    no=no1;
     while (no1!=0)
     {
         rem=no1%10;
-        res+=rem**digit_count;
+        res+=rem**digit;
         no1=parseInt(no1/10);
     }
-    (res==no)?document.write("yes armstrong"):document.write("no armstrong");
+    (res==no)?document.write("yes armstrong"):document.write("not armstrong");
 }
 
 armstrong();
