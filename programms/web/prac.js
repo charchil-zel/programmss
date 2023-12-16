@@ -1,63 +1,63 @@
-//function factors()
-//{
-//    let no=prompt("No. to display Factor: ");
-//    no=parseInt(no);
-//    for (var i=1;i<=no;i++)
-//    {
-//        if (no%i==0)
-//        {
-//            document.write(i+ " ");
-//        }
-//    }
-//}
-//
-//factors();
+function factors()
+{
+    let no=prompt("No. to display Factor: ");
+    //no=parseInt(no);
+    for (var i=1;i<=no;i++)
+    {
+        if (no%i==0)
+        {
+            document.write(i+ " ");
+        }
+    }
+}
 
-//function factorial()
-//{
-//    let no=prompt("Factorial: ");
-//  
-//    var a=1;
-//    for (var i=1;i<=no;i++)
-//    {
-//        a*=i;
-//    }
-//    document.write(a);
-//}
-//factorial();
+factors();
 
-//function fibonacci()
-//{
-//    let no=prompt("No. of terms for Fibonacci Series: ");
-//    var a=0;
-//    var b=1;
-//    for (var i=1;i<=no;i++)
-//    {
-//        document.write(a+" ");
-//        var c=a+b;
-//        a=b;
-//        b=c;
-//    }
-//}
-//fibonacci();
+function factorial()
+{
+    let no=prompt("Factorial: ");
+  
+    var a=1;
+    for (var i=1;i<=no;i++)
+    {
+        a*=i;
+    }
+   document.write(a);
+}
+factorial();
 
-//function palindrome()
-//{
-//    let no=prompt("Number to check the palindrome: ");
-//    no=parseInt(no);
-//    var rev=0,rema,no1;
-//    no1=no;
-//    while (no!=0)
-//    {
-//        rem=no%10;
-//        rev=rev*10+rem;
-//        no=parseInt(no/10);
-//    }
-//
-//    (no1==rev)?document.write("palindrome"):document.write("not palindrome");
-//}
-//
-//palidrome();
+function fibonacci()
+{
+    let no=prompt("No. of terms for Fibonacci Series: ");
+    var a=0;
+    var b=1;
+    for (var i=1;i<=no;i++)
+    {
+        document.write(a+" ");
+        var c=a+b;
+        a=b;
+        b=c;
+    }
+}
+fibonacci();
+
+function palindrome()
+{
+    let no=prompt("Number to check the palindrome: ");
+    no=parseInt(no);
+   var rev=0,rema,no1;
+    no1=no;
+    while (no!=0)
+    {
+        rem=no%10;
+        rev=rev*10+rem;
+        no=parseInt(no/10);
+   }
+
+    (no1==rev)?document.write("palindrome"):document.write("not palindrome");
+}
+
+palindrome();
 
 function armstrong()
 {
