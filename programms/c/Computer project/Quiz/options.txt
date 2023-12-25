@@ -1,0 +1,13 @@
+Paris London Berlin Rome
+HarperLee ErnestHemingway Mark Twain
+Au Ag Pt Ir
+SirIsaacNewton AlbertEinstein MarieCurie GalileoGalilei
+Jupiter Saturn Mars Neptune
+Python Java C++ Ruby
+AlanTuring CharlesBabbage AdaLovelace JohnvonNeumann
+Solarization Photolysis Photosynthesis Solar Power
+1969 1971 1960 1975
+Nitrogen Oxygen Carbon Hydrogen
+299,792km/s 150,000km/s 100,000km/s 200,000km/s 
+DeoxyribonucleicAcid RibonucleicAcid Protein Enzyme
+

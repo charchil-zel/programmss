@@ -1,5 +1,5 @@
 #include <iostream>
-int main() {
-  std::cout << "my name is charchil Neupane" << std::endl;
+int main(int argc, char **) {
+  std::cout << "hello this is charchil Neupane" << std::endl;
   return 0;
 }
