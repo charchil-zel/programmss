@@ -4,9 +4,18 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <script src="prac.js" type="text/javascript"></script>
+    <script src="prac.js" type="text/javascript" defer></script>
 </head>
 <body>
-    
+    <form name="myform" onsubmit="return validateform(true)">
+        <label>Name:        </label><input type="text" name="mname" required><br>    
+        <p id =pi style="color:aqua"></p>
+        <label>Address:     </label><textarea name="addr" rows="3" cols="30" required ></textarea><br><br>
+        <label>Phone:       </label><input type="tel" name="phone" required pattern="[0-9]{10}"><br><br>    
+        <label>Mail Address:</label><input type="text" name="mail" required><br><br>    
+        <label>Password:    </label><input type="password" name="pass" required><br><br>
+        <label>Confirm Password:</label><input type="password" name="repass" required><br><br>
+        <input type="submit" value="Submit">
+    </form>
 </body>
 </html>
